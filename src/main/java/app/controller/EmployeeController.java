@@ -30,6 +30,7 @@ public class EmployeeController
     }
 
 
+    @RequestMapping(value="employee_save")
     public String saveEmployee(@ModelAttribute Employee employee, BindingResult bindingResult,Model model)
     {
         if (bindingResult.hasErrors())
