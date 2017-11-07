@@ -13,6 +13,8 @@ import java.util.Locale;
  * Date: 2017-11-05
  * Time: 21:43
  * Description:
+ * Formatter 只能将String转换成另一种Java 类型。例如，将String 转成Date,但是它不能将Long转成Date。因此Formatter更
+ * 适用于Web层。为此，在Srping MVC应用程序中，选择Formatter比选择Converter更合适。
  */
 public class DateFormatter implements Formatter<Date>
 {

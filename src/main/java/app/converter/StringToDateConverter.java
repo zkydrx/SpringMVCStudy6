@@ -12,6 +12,8 @@ import java.util.Date;
  * Date: 2017-11-02
  * Time: 02:25
  * Description:
+ * Converter 是一般工具，可以将一种类型转换成另外一种类型。例如将String转成Date,或者将Long转成Date.
+ * Converter 既可以用在Web层，也可以用在其他层。
  */
 public class StringToDateConverter implements Converter<String, Date>
 {
