@@ -40,6 +40,7 @@ public class StringToDateConverter implements Converter<String, Date>
             // the errors message will be displayed when using.
             // <form:errors>
 
+            System.out.println("Exception");
             throw new IllegalArgumentException("invalid date format. Please use this pattern\""+datePattern+"\"");
         }
     }
